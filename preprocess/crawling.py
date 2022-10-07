@@ -24,12 +24,12 @@ while True:
 
     #calculate new scroll height and compare with last scroll height
     new_height = driver.execute_script("return document.body.scrollHeight")
-    if newheight= last_height:
-    try:
-     driver.find_elem_by_css_selector(".mye4qd").click()
+    if newheight == last_height:
+        try:
+            driver.find_elem_by_css_selector(".mye4qd").click()
 
-    except:
-        break
+        except:
+            break
     last_height= new_height
 
 
