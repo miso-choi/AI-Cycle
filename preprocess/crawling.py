@@ -7,7 +7,7 @@ driver = webdriver.Chrome()
 driver.get("https:/www.google.co.kr/imghp?hl=kd&tab=ri&ogbl")
 elem = driver.find_element_by_name("q")
 elem.send_keys("플라스틱 병")
-elem.send_keys(Keys.RERURN)
+elem.send_keys(Keys.RETURN)
 
 SCOLL_PAUSE_TIME = 1.5
 
