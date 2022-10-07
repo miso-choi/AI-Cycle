@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
-import urlib.request
+import urllib.request
 
 driver = webdriver.Chrome()
 driver.get("https:/www.google.co.kr/imghp?hl=kd&tab=ri&ogbl")
