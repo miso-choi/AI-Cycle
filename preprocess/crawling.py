@@ -9,7 +9,7 @@ elem = driver.find_element_by_name("q")
 elem.send_keys("플라스틱 병")
 elem.send_keys(Keys.RERURN)
 
-SCOLL-PAUSE_TIME = 1.5
+SCOLL_PAUSE_TIME = 1.5
 
 #Get scroll height
 
